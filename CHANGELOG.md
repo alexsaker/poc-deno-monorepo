@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file. See
 [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit
 guidelines.
 
+## [0.0.2](https://github.com/alexsaker/poc-deno-monorepo/compare/v0.0.1...v0.0.2) (2026-01-07)
+
+### Bug Fixes
+
+- **global:** fix fmt
+  ([654e65f](https://github.com/alexsaker/poc-deno-monorepo/commit/654e65f3db1e918c4e1ffb47b8394aa53abe91a3))
+
 ## [0.0.1](https://github.com/alexsaker/poc-deno-monorepo/compare/v0.0.0...v0.0.1) (2026-01-07)
 
 ### Features
