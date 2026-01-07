@@ -19,5 +19,5 @@ const handler = (req: Request): Response => {
   return new Response("Not found", { status: 404 });
 };
 
-console.log("🚀 API sur http://localhost:8080");
-Deno.serve({ port: 8080 }, handler);
+console.log("🚀 API sur http://localhost:9000");
+Deno.serve({ port: 9000 }, handler);
