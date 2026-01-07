@@ -1,7 +1,7 @@
 const config = {
   "*.{cjs,mjs,js,ts,jsx,tsx}": (stagedFiles) => [
     `deno lint ${stagedFiles.join(" ")}`,
-    `deno fmt ${stagedFiles.join(" ")}`,
+    `deno fmt  --ignore=node_modules,docs ${stagedFiles.join(" ")}`,
   ],
   "*.{css,md,mdx,json}": (stagedFiles) => [`deno fmt ${stagedFiles.join(" ")}`],
 };
