@@ -21,7 +21,7 @@
   },
   "tasks": {
     "prepare": "git config --local core.hooksPath git-hooks && cd git-hooks && chmod +x *",
-    "bump-workspaces": "deno run -A jsr:@esroyo/deno-bump-workspaces/cli --env-file=.env --release-note-path=CHANGELOG.md --individual-release-notes --git-tag",
+    "bump-workspaces": "deno run --env-file=.env -A jsr:@esroyo/deno-bump-workspaces/cli  --release-note-path=CHANGELOG.md --individual-release-notes --git-tag",
     "commit": "deno run -A npm:czg",
     "release": "deno run -A npm:commit-and-tag-version",
     "fmt": "deno fmt",
