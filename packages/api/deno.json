@@ -1,6 +1,4 @@
 {
-  "name": "@poc-deno/api",
-  "version": "0.1.0",
   "exports": "./main.ts",
   "tasks": {
     "dev": "deno run -A --watch main.ts",

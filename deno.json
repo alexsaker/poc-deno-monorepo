@@ -21,13 +21,13 @@
   },
   "tasks": {
     "prepare": "git config --local core.hooksPath git-hooks && cd git-hooks && chmod +x *",
+    "bump-workspaces": "deno run -A jsr:@deno/bump-workspaces@0.1.23/cli ",
     "commit": "deno run -A npm:czg",
     "release": "deno run -A npm:commit-and-tag-version",
     "fmt": "deno fmt",
     "lint": "deno lint",
     "test": "deno test -A",
-    "build": "echo 'Deno n\u2019a pas de build par d\u00e9faut, mais vous pouvez utiliser deno compile pour le CLI' && deno task compile-cli",
-    "compile-cli": "deno compile -A --output dist/cli ./packages/cli/main.ts",
+    "compile:cli": "deno compile -A --output dist/cli ./packages/cli/main.ts",
     "dev:api": "deno run -A --watch ./packages/api/main.ts",
     "dev:cli": "deno run -A ./packages/cli/main.ts",
     "check": "deno fmt --check --ignore=node_modules,docs && deno lint && deno test -A"
