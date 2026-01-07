@@ -1,4 +1,6 @@
 {
+  "name": "@poc-deno/shared",
+  "version": "0.1.0",
   "exports": "./mod.ts",
   "imports": {
     "log": "std/log/mod.ts"
