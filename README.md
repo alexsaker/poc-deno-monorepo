@@ -1,9 +1,10 @@
-# Deno Monorepo Exemple
+# POC Deno Monorepo 
 
-Monorepo Deno avec **workspace**, **import map**, **API HTTP**, **CLI**, **lib partagée**,
-**tests**, **tâches** et **CI GitHub Actions**.
+## Overview
 
-## Démarrage
+The aim of this POC is to create a production ready code base using deno as typescript runtime.
+
+## Useful Commands
 
 ```bash
 deno task fmt
