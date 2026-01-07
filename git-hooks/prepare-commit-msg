@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+exec < /dev/tty
+deno run -A npm:gitmoji-cli --hook $1 $2

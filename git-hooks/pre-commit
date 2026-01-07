@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
-deno check .
+deno check --all
 deno run -A npm:lint-staged
