@@ -1,0 +1,9 @@
+{
+  "name": "@poc-deno/global",
+  "version": "v0.3.0",
+  "repository": {
+    "url": "https://github.com/alexsaker/poc-deno-monorepo.git"
+  },
+  "author": "Alexandre SAKER <saker.alexandre@gmail.com>",
+  "license": "MIT"
+}
