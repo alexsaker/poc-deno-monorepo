@@ -1,4 +1,6 @@
 {
+  "name": "@poc-deno/global",
+  "version": "0.1.0",
   "lock": {
     "path": "./deno.lock",
     "frozen": false
