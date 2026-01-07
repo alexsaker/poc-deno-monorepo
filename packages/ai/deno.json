@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "log": "std/log/mod.ts"
+  }
+}

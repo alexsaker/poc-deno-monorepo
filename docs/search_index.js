@@ -1,0 +1,3 @@
+(function () {
+  window.DENO_DOC_SEARCH_INDEX = {"kind":"search","nodes":[{"id":"namespace_greet","kind":[{"char":"f","kind":"Function","title":"Function"}],"name":"greet","file":".","doc":"","url":"././~/greet.html","deprecated":false},{"id":"namespace_sum","kind":[{"char":"f","kind":"Function","title":"Function"}],"name":"sum","file":".","doc":"","url":"././~/sum.html","deprecated":false}]};
+})()

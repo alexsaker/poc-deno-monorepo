@@ -1,0 +1,14 @@
+{
+  "name": "poc-deno",
+  "version": "1.0.0",
+  "description": "Deno monorepo POC",
+  "type": "module",
+  "config": {
+    "commitizen": {
+      "path": "cz-git"
+    }
+  },
+  "devDependencies": {
+    "lint-staged": "^16.2.7"
+  }
+}

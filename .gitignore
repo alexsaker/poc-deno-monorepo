@@ -1,0 +1,14 @@
+# Deno
+.denocache/
+.denon/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build
+/dist/
+.env
+
+node_modules
