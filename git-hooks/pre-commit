@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
 
-deno task check
+deno fmt --check --ignore=node_modules,docs
+deno lint
+deno test -A
 deno run -A npm:lint-staged
