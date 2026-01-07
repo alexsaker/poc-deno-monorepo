@@ -44,7 +44,7 @@ if (import.meta.main) {
       name: "lang",
       message: "Favorite language?",
       type: Select,
-      options: ["Deno", "Node", "Bun"],
+      options: ["Deno", "Node", "Bun", "Rust"],
     },
     {
       name: "firstNumber",
