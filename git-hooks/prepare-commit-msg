@@ -1,4 +1,0 @@
-#!/usr/bin/env sh
-
-exec < /dev/tty
-deno run -A npm:czg --hook --edit "$1"

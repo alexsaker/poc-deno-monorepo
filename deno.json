@@ -21,7 +21,7 @@
   },
   "tasks": {
     "prepare": "git config --local core.hooksPath git-hooks && cd git-hooks && chmod +x *",
-    "commit": "git commit",
+    "commit": "deno run -A npm:czg",
     "fmt": "deno fmt",
     "lint": "deno lint",
     "test": "deno test -A",
