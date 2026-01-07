@@ -1,7 +1,7 @@
 import * as log from "@std/log";
 
 export function greet(name: string): string {
-  const message = `Bonjour, ${name} 👋`;
+  const message = `Hello, ${name} 👋`;
   log.info(`Greet called with: ${name}`);
   return message;
 }
