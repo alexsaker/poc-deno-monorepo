@@ -2,7 +2,7 @@ import { assertEquals } from "@std/assert";
 import { greet, sum } from "./mod.ts";
 
 Deno.test("greet outputs a message", () => {
-  assertEquals(greet("Alex"), "Bonjour, Alex 👋");
+  assertEquals(greet("Alex"), "Hello, Alex 👋");
 });
 
 Deno.test("sum adds two numbers", () => {
