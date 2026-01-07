@@ -30,9 +30,7 @@
     "compile-cli": "deno compile -A --output dist/cli ./packages/cli/main.ts",
     "dev:api": "deno run -A --watch ./packages/api/main.ts",
     "dev:cli": "deno run -A ./packages/cli/main.ts",
-    "mastra:dev": "mastra dev",
-    "mastra:build": "mastra build",
-    "check": "deno fmt --check && deno lint && deno test -A"
+    "check": "deno fmt --check --ignore=node_modules,docs && deno lint && deno test -A"
   },
   "workspace": [
     "packages/shared",
