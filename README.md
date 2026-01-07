@@ -1,4 +1,4 @@
-# POC Deno Monorepo 
+# POC Deno Monorepo
 
 ## Overview
 
@@ -16,6 +16,6 @@ deno task dev:api
 
 # CLI
 deno task dev:cli
-# ou
+# or
 deno run -A packages/cli/main.ts Alex 5 7
 ```
