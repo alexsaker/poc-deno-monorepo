@@ -29,7 +29,7 @@ if (import.meta.main) {
    * Collects user input through interactive prompts.
    * @type {Object} answers - The collected user responses
    * @property {string} name - The user's name
-   * @property {string} lang - The user's favorite language (Deno, Node, or Bun)
+   * @property {string} lang - The user's favorite language (Deno, Node, Bun or Rust)
    * @property {number} firstNumber - The first number to add
    * @property {number} secondNumber - The second number to add
    * @property {boolean} confirm - Confirmation to continue
