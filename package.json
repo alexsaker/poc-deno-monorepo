@@ -1,6 +1,6 @@
 {
   "name": "@poc-deno/global",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "repository": {
     "url": "https://github.com/alexsaker/poc-deno-monorepo.git"
   },
