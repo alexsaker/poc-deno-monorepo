@@ -3,6 +3,8 @@ const config = {
     `deno lint ${stagedFiles.join(" ")}`,
     `deno fmt  --ignore=node_modules,docs ${stagedFiles.join(" ")}`,
   ],
-  "*.{css,md,mdx,json}": (stagedFiles) => [`deno fmt ${stagedFiles.join(" ")}`],
+  "*.{css,md,mdx,json}": (
+    stagedFiles,
+  ) => [`deno fmt --ignore=node_modules,docs ${stagedFiles.join(" ")}`],
 };
 export default config;
