@@ -1,5 +1,9 @@
 name: RELEASE
 
+permissions:
+  contents: write # nécessaire pour pousser des commits et des tags
+  pull-requests: write
+
 on:
   push:
     branches: [main]
@@ -7,6 +11,8 @@ on:
 jobs:
   bump-workspaces:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,6 +35,8 @@ jobs:
   release-deno:
     runs-on: ubuntu-latest
     needs: bump-workspaces
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
