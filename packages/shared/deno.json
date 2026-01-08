@@ -1,7 +1,8 @@
 {
-  "name": "@poc-deno/shared",
-  "version": "0.1.1",
   "exports": "./mod.ts",
+  "tasks": {
+    "release": " deno run --env-file=.env -A npm:release-it"
+  },
   "imports": {
     "log": "std/log/mod.ts"
   }

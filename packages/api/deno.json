@@ -1,8 +1,7 @@
 {
-  "name": "@poc-deno/api",
-  "version": "0.1.0",
   "exports": "./main.ts",
   "tasks": {
+    "release": " deno run --env-file=.env -A npm:release-it",
     "dev": "deno run -A --watch main.ts",
     "test": "deno test -A"
   }
