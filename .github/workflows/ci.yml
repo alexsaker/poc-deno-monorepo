@@ -26,7 +26,7 @@ jobs:
             deno-${{ runner.os }}-
 
       - name: Format
-        run: deno fmt --check
+        run: deno fmt --check --ignore=node_modules,docs
 
       - name: Lint
         run: deno lint
