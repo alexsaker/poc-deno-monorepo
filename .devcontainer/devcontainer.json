@@ -13,7 +13,8 @@
     "vscode": {
       "extensions": [
         "denoland.vscode-deno",
-        "laurencebahiirwa.deno-std-lib-snippets"
+        "laurencebahiirwa.deno-std-lib-snippets",
+        "ritwickdey.LiveServer"
       ]
     }
   }

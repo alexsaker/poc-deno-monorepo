@@ -24,12 +24,13 @@
     "bump-workspaces": "deno run --env-file=.env -A jsr:@esroyo/deno-bump-workspaces/cli  --release-note-path=CHANGELOG.md --individual-release-notes --git-tag",
     "commit": "deno run -A npm:czg",
     "release": "deno run -A npm:commit-and-tag-version",
+    "audit": "deno audit",
     "fmt": "deno fmt",
     "lint": "deno lint",
-    "test": "deno test -A",
-    "compile:cli": "deno compile -A --output dist/cli ./packages/cli/main.ts",
-    "dev:api": "deno run -A --watch ./packages/api/main.ts",
-    "dev:cli": "deno run -A ./packages/cli/main.ts",
+    "test": "deno test --allow-read --allow-env --coverage=coverage",
+    "api:dev": "deno run -A --watch ./packages/api/main.ts",
+    "cli:dev": "deno run -A ./packages/cli/main.ts",
+    "cli:compile": "deno compile -A --output dist/cli ./packages/cli/main.ts",
     "check": "deno fmt --check --ignore=node_modules,docs && deno lint && deno test -A"
   },
   "workspace": [
