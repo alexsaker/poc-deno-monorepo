@@ -3,7 +3,7 @@
     "path": "./deno.lock",
     "frozen": false
   },
-  "nodeModulesDir": "auto",
+  "nodeModulesDir": true,
   "fmt": {
     "useTabs": false,
     "lineWidth": 100,
