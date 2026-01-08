@@ -17,8 +17,8 @@ const env = await load({
   export: true,
 });
 
-console.log(env.GREETING);
-console.log(Deno.env.get("GREETING"));
+console.log(env.GREETING_NAME);
+console.log(Deno.env.get("GREETING_NAME"));
 /**
  * Main entry point for the CLI application.
  * Prompts the user for their name, favorite language, and two numbers to add.
