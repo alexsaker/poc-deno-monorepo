@@ -4,6 +4,28 @@ All notable changes to this project will be documented in this file. See
 [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit
 guidelines.
 
+## [0.3.2](https://github.com/alexsaker/poc-deno-monorepo/compare/v0.3.1...v0.3.2) (2026-01-08)
+
+### Features
+
+- **deno.json:** update bump-workspaces task
+  ([a919411](https://github.com/alexsaker/poc-deno-monorepo/commit/a919411c049d2099d7e2dbeb1b3b7f4d896d335e))
+- **package.json:** add package.json files for workspaces and root monorepo
+  ([6b0c290](https://github.com/alexsaker/poc-deno-monorepo/commit/6b0c290d4bf3ceb3910309dce478330b45712f28))
+- **shared:** update CHANGELOG
+  ([b041be3](https://github.com/alexsaker/poc-deno-monorepo/commit/b041be3d4dc0b99c39537ad93fcee9427d82bc18))
+- **shared:** update log message again
+  ([260805b](https://github.com/alexsaker/poc-deno-monorepo/commit/260805be722d7158a957170a6665453fc8065253))
+- **shared:** update log message to be sure
+  ([c278885](https://github.com/alexsaker/poc-deno-monorepo/commit/c27888542a21a7bd8ffdd6a6f57ea660b6b36436))
+
+### Bug Fixes
+
+- **deno.json:** update nodeModulesDir to auto
+  ([2dc20e3](https://github.com/alexsaker/poc-deno-monorepo/commit/2dc20e39bd935a2c3dc3834bdcb945b811ba9ab5))
+- **deno.json:** update nodeModulesDir value to boolean
+  ([f238838](https://github.com/alexsaker/poc-deno-monorepo/commit/f238838efe100ca61ef5a1f56923fa25e99e9e0e))
+
 ## [0.3.1](https://github.com/alexsaker/poc-deno-monorepo/compare/v0.0.3...v0.3.1) (2026-01-07)
 
 ## [0.0.3](https://github.com/alexsaker/poc-deno-monorepo/compare/v0.0.2...v0.0.3) (2026-01-07)
