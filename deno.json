@@ -25,7 +25,7 @@
     "commit": "deno run -A npm:czg",
     "release": "deno run -A npm:commit-and-tag-version",
     "audit": "deno audit",
-    "fmt": "deno fmt",
+    "fmt": "deno fmt --ignore=node_modules,docs",
     "lint": "deno lint",
     "test": "deno test --allow-read --allow-env --coverage=coverage",
     "api:dev": "deno run -A --watch ./packages/api/main.ts",
