@@ -1,8 +1,8 @@
 name: PR_REVIEW
 
 on:
-  pull_request_review:
-    types: [submitted, edited]
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   deno:
